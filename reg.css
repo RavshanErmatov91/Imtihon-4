@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1060px;
+  height: 800px;
+  padding: 80px 79px 79px 88px;
+  border-radius: 15px;
+}
+.login {
+  display: flex;
+  gap: 80px;
+}
+.login__left__title {
+  max-width: 355px;
+  height: 150px;
+
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+
+  color: #0a033c;
+}
+.login__left__eduvi {
+  display: flex;
+}
+.login__left__eduvi p {
+  margin-top: 15px;
+}
+.login__left__img {
+  margin-top: 36px;
+}
+.login__left__image {
+  margin-left: 130px;
+  margin-top: 56px;
+}
+/* { */
+/* max-width: 370px;
+  height: 50px;
+} */
+.google {
+  max-width: 340px;
+  height: 50px;
+  left: 816px;
+  top: 243px;
+
+  margin-left: 40px;
+  padding: 10px 132px 10px 5px;
+  background: #ffffff;
+  border: 1px solid #dedde4;
+  gap: 15px;
+  border-radius: 10px;
+}
+input {
+  max-width: 500px;
+  margin-top: 5px;
+  padding: 10px 205px 10px 10px;
+  background: #ffffff;
+  border: 1px solid #dedde4;
+  border-radius: 10px;
+}
+label {
+  margin-top: 55px;
+}
+.checkbox {
+  margin-top: 2px;
+}
+.btn {
+  max-width: 370px;
+  height: 50px;
+
+  background: #9c4df4;
+  border-radius: 10px;
+  color: white;
+  margin-left: 30px;
+  padding: 10px 153px;
+}
+.login__left__paragraph {
+  margin-top: 15px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+
+  text-align: center;
+
+  color: #0a033c;
+}
+
+@media only screen and (max-width: 976px) {
+  .login__left {
+    display: none;
+  }
+  .line {
+    display: none;
+  }
+  .container {
+    padding: 0;
+    width: 100%;
+  }
+  .login {
+    margin: 0;
+    padding: 0%;
+  }
+  .btn {
+    margin: 0 29%;
+  }
+  label {
+    margin-left: 20%;
+  }
+}

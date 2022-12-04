@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- BOOTSTRAP-MIN-CSS -->
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+    <!-- MAIN-CSS -->
+    <link rel="stylesheet" href="./main.css" />
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    <title>Eduvi</title>
+  </head>
+  <body>
+    <header>
+      <div class="container d-flex justify-content-between">
+        <div class="header d-flex justify-content-between">
+          <div class="header__one d-flex">
+            <img class="header__one__img" src="./images/kitob.svg" alt="icon" />
+            <p class="header__one__paragraph">Eduvi</p>
+          </div>
+          <div class="header__two d-flex justify-content-between">
+            <a class="header__two__a mt-1 text-decoration-none" href="#"
+              >Shop</a
+            >
+            <select>
+              <option>For kindergarten</option>
+            </select>
+            <select>
+              <option>For High School</option>
+            </select>
+            <select>
+              <option>For College</option>
+            </select>
+            <select>
+              <option>Courses</option>
+            </select>
+          </div>
+          <div class="header__three d-flex justify-content-between">
+            <div class="header__three__one d-flex gap-1">
+              <p class="header__three__paragraph">Cart (0)</p>
+              <img
+                class="header__three__img"
+                src="./images/sumka.svg"
+                alt="icon"
+              />
+            </div>
+            <div class="header__three__two d-flex gap-1">
+              <p class="mt-1" id="userLogin"></p>
+              <img
+                class="header__three__img"
+                src="./images/account.svg"
+                alt="icon"
+              />
+            </div>
+            <div id="Menuu" class="d-flex">
+              <p>Menu</p>
+              <img
+              src="https://assets.stickpng.com/images/588a6507d06f6719692a2d15.png"
+              id="menuIcon"
+              alt="icon"
+            />
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-1"></div>
+      
+      <div class="menu-box" id="menuBox">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Eduvi</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section class="container">
+        <div class="eduvi">
+          <div class="eduvi__one">
+            <a class="eduvi__one__a" href="#">Never Stop Learning</a>
+            <h1 class="eduvi__one__title">
+              Grow up your skills by online courses with Eduvi
+            </h1>
+            <p class="eduvi__one__paragraph">
+              Eduvi is a Global training provider based across the UK that
+              specialises in accredited and bespoke training courses. We crush
+              the barriers togetting a degree.
+            </p>
+            <form class="form d-flex" action="#">
+              <select class="eduvi__one__select" name="" id="">
+                <option selected disabled value="">Kindergarten</option>
+              </select>
+              <input
+                class="eduvi__one__input"
+                type="text"
+                placeholder="| Class/Course"
+              />
+              <button type="submit" class="button d-flex pt-3">
+                <img src="./images/search.svg" alt="icon" />Search
+              </button>
+            </form>
+          </div>
+          <div class="eduvi__two">
+            <img class="img__one" src="./images/boy.png" alt="boy img" />
+            <img class="img__two" src="./images/boy2.png" alt="boy2 img" />
+          </div>
+        </div>
+      </section>
+      <section class="section__two">
+        <div class="cardd">
+          <div class="card__one">
+            <h2 class="card__title">
+              High quality video, audio & live classes
+            </h2>
+            <p class="card__paragraph">
+              High-definition video is video of higher resolution and quality
+              than standard-definition. While there is no standardized meaning
+              for high-definition, generally any video image with considerably
+              more than 480 vertical scan lines or 576 vertical lines is
+              considered high-definition.
+            </p>
+            <button class="card__button">Visit Courses</button>
+          </div>
+          <div class="card__two">
+            <img class="card__img" src="./images/name.png" alt="picture" />
+            <div class="card__three">
+              <div class="card__two__1 d-flex">
+                <img src="./images/ovozz.svg" alt="icon" />
+                <p class="card__two__paragraph">Audio Classes</p>
+              </div>
+              <div class="card__two__2 d-flex">
+                <img src="./images/live.svg" alt="icon" />
+                <p class="card__pr__2">Recorded Class</p>
+              </div>
+              <div class="card__two__3 d-flex">
+                <img src="./images/play.svg" alt="icon" />
+                <p class="card__pr__3">Audio Classes</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section__three">
+        <div class="moon">
+          <div class="moon__one">
+            <h3 class="moon__title">Qualified lessons for students</h3>
+            <p class="moon__paragraph">
+              A lesson or class is a structured period of time where learning is
+              intended to occur. It involves one or more students being taught
+              by a teacher or instructor.
+            </p>
+            <div class="moon__child d-flex">
+              <p>Kindergarten</p>
+              <p>High School</p>
+              <p>College</p>
+            </div>
+          </div>
+          <div class="moon__two d-flex flex-wrap gap-5 mt-5">
+            <div>
+              <img src="./images/1.svg" alt="icon" />
+              <h4>Standard One</h4>
+              <p>
+                Standard 1 is a foundation Standard that reflects 7 important
+                concepts...
+              </p>
+              <button>Class Details</button>
+            </div>
+            <div>
+              <img src="./images/2.svg" alt="icon" />
+              <h4>Standard Two</h4>
+              <p>
+                Standard 2 builds on the foundations of Standard 1 and includes
+                requirements...
+              </p>
+              <button>Class Details</button>
+            </div>
+            <div>
+              <img src="./images/3.svg" alt="icon" />
+              <h4>Standard Three</h4>
+              <p>
+                Standard 3 of the Aged Care Quality Standards applies to all
+                services delivering personal...
+              </p>
+              <button>Class Details</button>
+            </div>
+            <div>
+              <img src="./images/4.svg" alt="icon" />
+              <h4>Standard Four</h4>
+              <p>
+                Standard 4 of the Aged Care Quality Standards focuses on
+                services and supports...
+              </p>
+              <button>Class Details</button>
+            </div>
+            <div>
+              <img src="./images/5.svg" alt="icon" />
+              <h4>Standard Five</h4>
+              <p>
+                Standard 5 Learning Resources. Learning Resources ensure that
+                the school has the...
+              </p>
+              <button>Class Details</button>
+            </div>
+            <div>
+              <img src="./images/6.svg" alt="icon" />
+              <h4>Standard Six</h4>
+              <p>
+                Standard 6 requires an organisation to have a system to resolve
+                complaints...
+              </p>
+              <button>Class Details</button>
+            </div>
+            <div>
+              <img src="./images/7.svg" alt="icon" />
+              <h4>Standard Seven</h4>
+              <p>
+                Standard 7 Blood Management mandates that leaders of health
+                service organisations...
+              </p>
+              <button>Class Details</button>
+            </div>
+            <div>
+              <img src="./images/8.svg" alt="icon" />
+              <h4>Standard Eight</h4>
+              <p>
+                Standard 8 Course from NCERT Solutions help students to
+                understand...
+              </p>
+              <button>Class Details</button>
+            </div>
+          </div>
+          <button class="moon__btn">Visit More Classes</button>
+        </div>
+      </section>
+      <section class="section__four container">
+        <div class="star">
+          <p class="star__paragraph">College Level</p>
+          <h4 class="star__title">
+            Don’t waste time in COVID-19 pandemic. Develop your skills.
+          </h4>
+          <p class="star__description">
+            High-definition video is video of higher resolution and quality than
+            standard-definition. While there is no standardized meaning for
+            high-definition, generally any video.
+          </p>
+          <button class="star__btn">Registation Now</button>
+        </div>
+      </section>
+      <section class="section__five container">
+        <div class="pen">
+          <div class="pen__one">
+            <img class="pen__one__img" src="./images/kiyim.png" alt="picture" />
+            <img
+              class="pen__one__image"
+              src="./images/ipad.png"
+              alt="picture"
+            />
+            <img
+              class="pen__one__mobile"
+              src="./images/mobile.png"
+              alt="picture"
+            />
+          </div>
+          <div>
+            <h5 class="pen__title">
+              Want to share your knowledge? Join us a Mentor
+            </h5>
+            <p class="pen__paragraph">
+              High-definition video is video of higher resolution and quality
+              than standard-definition. While there is no standardized meaning
+              for high-definition, generally any video.
+            </p>
+            <button class="pen__btn">Career Information</button>
+          </div>
+        </div>
+      </section>
+      <section class="section-six container">
+        <div class="cat">
+          <img class="cat__img" src="./images/bolalar.png" alt="picture" />
+          <h6 class="cat__title">Subscribe For Get Update Every New Courses</h6>
+          <p class="cat__paragraph">
+            20k+ students daily learn with Eduvi. Subscribe for new courses.
+          </p>
+          <div class="cat__child">
+            <input
+              class="cat__child__input"
+              type="text"
+              placeholder="enter your email"
+            />
+            <button class="cat__child__btn">Subscribe</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer container d-flex">
+        <div class="footer__one">
+          <div class="d-flex mb-3">
+            <img src="./images/kitob.svg" alt="icon" />
+            <p class="header__one__paragraph mt-3 gap-2">Eduvi</p>
+          </div>
+          <ul class="d-flex list-unstyled gap-3 mb-5">
+            <li><i class="fa-brands fa-facebook-f"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-linkedin"></i></li>
+          </ul>
+          <ul class="ulli list-unstyled">
+            <li>©2021 Eduvi.co</li>
+            <li>Eduvi is a registered</li>
+            <li>trademark of Eduvi.co</li>
+          </ul>
+        </div>
+        <ul class="list-unstyled mt-3">
+          <li>Courses</li>
+          <li>Classroom courses</li>
+          <li>Virtual classroom courses</li>
+          <li>E-learning courses</li>
+          <li>Video Courses</li>
+          <li>Offline Courses</li>
+        </ul>
+        <ul class="list-unstyled mt-3">
+          <li>Community</li>
+          <li>Learners</li>
+          <li>Parteners</li>
+          <li>Developers</li>
+          <li>Transactions</li>
+          <li>Blog</li>
+          <li>Teaching Center</li>
+        </ul>
+        <ul class="list-unstyled mt-3">
+          <li>Quick links</li>
+          <li>Home</li>
+          <li>Professional</li>
+          <li>Courses</li>
+          <li>Admissions</li>
+          <li>Testimonial</li>
+          <li>Programs</li>
+        </ul>
+        <ul class="list-unstyled mt-3">
+          <li>More</li>
+          <li>Press</li>
+          <li>Investors</li>
+          <li>Terms</li>
+          <li>Privacy</li>
+          <li>Help</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+    </footer>
+    <!-- SCRIPTS-->
+    <script src="./scripts/utils.js"></script>
+    <script src="./man.js"></script>
+  </body>
+</html>
